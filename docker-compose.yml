@@ -1,0 +1,8 @@
+services:
+    painterest:
+        image: 'ghcr.io/gitgitro/painterest:latest'
+        ports:
+            - '8889:8889'
+        container_name: painterest
+        restart: unless-stopped
+
