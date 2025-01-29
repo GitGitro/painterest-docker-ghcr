@@ -6,7 +6,7 @@ Useful if you wanna track the updates with <a href="https://getwud.github.io/wud
 
 Usage:
 ```shell
-$ docker run --restart unless-stopped -p 8080:8080 -d --name "painterest" ghcr.io/gitgitro/painterest
+$ docker run --restart unless-stopped -p 8889:8889 -d --name "painterest" ghcr.io/gitgitro/painterest
 ```
 
 Or with the docker compose file provided:
